@@ -1,0 +1,35 @@
+FRONTEND
+- React 18
+- Vite 5
+- React Router v6
+- Tailwind CSS 3
+- Axios
+- Recharts
+- React Hot Toast
+- Heroicons v2
+
+BACKEND
+- Python 3.11
+- FastAPI
+- Uvicorn
+- SQLAlchemy 2 (ORM)
+- SQLite (database)
+- Pydantic v2
+- Python-JOSE (JWT)
+- Passlib + Bcrypt (password hashing)
+- Python-Multipart (file uploads)
+
+COMPUTER VISION / ML
+- OpenCV (cv2)
+- FaceNet / InceptionResnetV1 (face recognition)
+- MTCNN (face detection)
+- PyTorch
+- Torchvision
+- NumPy
+- Pillow
+
+TOOLS & INFRASTRUCTURE
+- Node.js / npm
+- Git
+- Python venv
+- IP Webcam (Android app, MJPEG stream)

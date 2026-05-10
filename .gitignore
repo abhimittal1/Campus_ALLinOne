@@ -1,0 +1,26 @@
+.env
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.bak
+node_modules/
+dist/
+build/
+*.egg-info/
+
+# ML model weights (large binary files — provide your own)
+best weights of training YOLO v8/
+
+# Vector store / ChromaDB generated files
+data/vector_store/
+
+# Scraped data (regenerate with jiit_crawler.py)
+data/scraped/
+
+# Student face embeddings (biometric data)
+students.json

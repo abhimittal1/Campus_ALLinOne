@@ -1,0 +1,28 @@
+# FastAPI backend dependencies
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+sqlalchemy==2.0.40
+pydantic[email]==2.11.3
+pydantic-settings==2.9.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.20
+python-dotenv==1.1.0
+aiofiles==24.1.0
+
+# RAG / Chatbot
+openai>=1.25.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# ML / face-recognition dependencies (used by routers/subjects.py and routers/students.py)
+numpy
+Pillow
+torch
+torchvision
+facenet-pytorch
+opencv-python
+scipy
+ultralytics
+ultralytics>=8.0.0
